@@ -8,7 +8,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_thread.h>
 #else
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <SDL_thread.h>
 #endif
 
@@ -32,13 +32,13 @@ void print_sdl_error(void);
 
 void game_event_loop(sdl_instance *sdl, map_t *map);
 void poll_events(int *quit, SDL_Event *e, player *player, SDL_Point *mouse,
-		SDL_bool *map_active);
+				SDL_bool *map_active);
 
 void draw_2d_map(sdl_instance *sdl, map_t *map);
 void send_frame(sdl_instance *sdl);
 
 
 SDL_Point rotate_point(const SDL_Point *point, float cx, float cy, float deg,
-		float ray_size);
+				float ray_size);
 
 #endif
