@@ -10,6 +10,7 @@
 #else
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_thread.h>
+#include <glad/glad.h>
 #endif
 
 #include <stdio.h>
