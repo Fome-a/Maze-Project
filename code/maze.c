@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 		return (1);
 
 	if (textured)
-		loadTextures(mapName);
+		loadTextures("Maze_map_0.png");
 
 	/* loops until user exits by ESC or closing window */
 	while (!quit())
