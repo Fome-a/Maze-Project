@@ -66,5 +66,3 @@ void renderBGFlat(void);
 void renderBGTex(SDL_Point map, point_t rayDir, double distToWall, double wallX, int drawEnd, int x, int side);
 
 #endif /* HEADER_H */
-Footer
-© 2022 GitHub, Inc.
