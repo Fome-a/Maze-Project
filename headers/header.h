@@ -140,7 +140,7 @@ void make_map(char **argv);
 
 /** get_map **/
 int _atoi(char *s);
-char *_strdup(char *str);
+char *_strdup(const char *str);
 int _length(char *str);
 int **get_altitude(char **argv);
 char **str_split(char *str, char *del);

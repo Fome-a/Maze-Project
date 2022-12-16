@@ -43,10 +43,10 @@ int _atoi(char *s)
  *
  * Return: the duplicated string
  **/
-char *_strdup(char *str)
+char * _strdup(const char *str)
 {
 	/** variable for string duplication **/
-	char *dup; 
+	char *dup;
 	int i = 0, strlength = 0;
 
 	if (str == NULL)
