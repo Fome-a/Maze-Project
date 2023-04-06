@@ -7,7 +7,7 @@
 #define map_x 8
 #define map_y 8
 #define map_s 64
-#define PI 3.14159265
+#define PI 3.1415926
 #define PI2 (0.5 * PI)
 #define PI3 (1.5 * PI)
 #define DR 0.0174533
